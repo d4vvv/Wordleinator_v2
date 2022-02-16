@@ -25,8 +25,6 @@ axios.get('http://localhost:3001/words').then(response => {
           console.log('word saved')
       }) 
     })
-
-    //mongoose.connection.close()
 })
 
 if (process.argv.length < 3) {
